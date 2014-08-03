@@ -1,0 +1,81 @@
+<div class="page-header">
+  <h1>Add Event</h1>
+</div>
+
+<% if @event.errors.any? %>
+  <% @event.errors.full_messages.each do |message| %>
+    <div class="alert alert-dismissable alert-danger">
+      <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+      <%= message %>
+    </div>
+  <% end %>
+<% end %>
+
+
+<form action="/create_event" class="form-horizontal">
+  <!-- Label and input for start_location -->
+  <div class="form-group">
+    <label for="start_location" class="col-sm-2 control-label">
+      Start location
+    </label>
+    <div class="col-sm-10">
+      <textarea id="start_location" name="start_location" placeholder="Start location" class="form-control" rows="3"><%= @event.start_location %></textarea>
+    </div>
+  </div>
+
+  <!-- Label and input for end_location -->
+  <div class="form-group">
+    <label for="end_location" class="col-sm-2 control-label">
+      End location
+    </label>
+    <div class="col-sm-10">
+      <textarea id="end_location" name="end_location" placeholder="End location" class="form-control" rows="3"><%= @event.end_location %></textarea>
+    </div>
+  </div>
+
+  <!-- Label and input for arrival_time -->
+  <div class="form-group">
+    <label for="arrival_time" class="col-sm-2 control-label">
+      Arrival time
+    </label>
+    <div class="col-sm-10">
+      <input type="text" id="arrival_time" name="arrival_time" placeholder="Arrival time" class="form-control" value="<%= @event.arrival_time %>">
+    </div>
+  </div>
+
+  <!-- Label and input for departure_time -->
+  <div class="form-group">
+    <label for="departure_time" class="col-sm-2 control-label">
+      Departure time
+    </label>
+    <div class="col-sm-10">
+      <input type="text" id="departure_time" name="departure_time" placeholder="Departure time" class="form-control" value="<%= @event.departure_time %>">
+    </div>
+  </div>
+
+  <!-- Label and input for duration -->
+  <div class="form-group">
+    <label for="duration" class="col-sm-2 control-label">
+      Duration
+    </label>
+    <div class="col-sm-10">
+      <input type="text" id="duration" name="duration" placeholder="Duration" class="form-control" value="<%= @event.duration %>">
+    </div>
+  </div>
+
+  <!-- Label and input for phone_number -->
+  <div class="form-group">
+    <label for="phone_number" class="col-sm-2 control-label">
+      Phone number
+    </label>
+    <div class="col-sm-10">
+      <input type="text" id="phone_number" name="phone_number" placeholder="Phone number" class="form-control" value="<%= @event.phone_number %>">
+    </div>
+  </div>
+
+  <div class="form-group">
+    <div class="col-sm-offset-2 col-sm-10">
+      <input type="submit" value="Create Event" class="btn btn-primary">
+    </div>
+  </div>
+</form>

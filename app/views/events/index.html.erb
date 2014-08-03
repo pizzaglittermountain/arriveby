@@ -1,0 +1,50 @@
+<div class="page-header">
+  <h1>Events</h1>
+</div>
+
+<p><a href="/events/new" class="btn btn-primary">Add a New Event</a></p>
+
+<table class="table table-hover">
+  <thead>
+    <tr>
+      <th>Start location</th>
+      <th>End location</th>
+      <th>Arrival time</th>
+      <th>Departure time</th>
+      <th>Duration</th>
+      <th>Phone number</th>
+      <th></th>
+      <th></th>
+      <th></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @events.each do |event| %>
+      <tr>
+        <td><%= event.start_location %></td>
+        <td><%= event.end_location %></td>
+        <td><%= event.arrival_time %></td>
+        <td><%= event.departure_time %></td>
+        <td><%= event.duration %></td>
+        <td><%= event.phone_number %></td>
+        <td>
+          <a href="/events/<%= event.id %>" class="btn btn-primary">
+            <i class="fa fa-search-plus"></i>
+          </a>
+        </td>
+        <td>
+          <a href="/events/<%= event.id %>/edit" class="btn btn-warning">
+            <i class="fa fa-edit"></i>
+          </a>
+        </td>
+        <td>
+          <a href="/delete_event/<%= event.id %>" class="btn btn-danger">
+            <i class="fa fa-trash-o"></i>
+          </a>
+        </td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
