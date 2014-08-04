@@ -1,5 +1,7 @@
 class Event < ActiveRecord::Base
-  validates :start_location, :end_location, :arrival_time, :departure_time, :presence => true
+  validates :start_location, :end_location, :arrival_time, :presence => true
+
+  before_save :get_travel_time
 
   def get_travel_time
     start = URI.encode(self.start_location)
@@ -15,8 +17,17 @@ class Event < ActiveRecord::Base
     routes = parsed_data["routes"]
 
     # routes.each do |route|
-      return routes.first["legs"][0]["duration"]["value"]
+    self.duration = routes.first["legs"][0]["duration"]["value"]
     # end
   end
+
+  def departure_time
+    return self.arrival_time - self.duration
+  end
+
+  def phone_number
+
+  end
+
 
 end

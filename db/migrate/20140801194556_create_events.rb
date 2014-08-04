@@ -4,8 +4,7 @@ class CreateEvents < ActiveRecord::Migration
       t.text :start_location
       t.text :end_location
       t.datetime :arrival_time
-      t.datetime :departure_time
-      t.datetime :duration
+      t.integer :duration
       t.string :phone_number
 
       t.timestamps

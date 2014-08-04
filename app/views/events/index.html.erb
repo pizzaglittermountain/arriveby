@@ -24,8 +24,8 @@
       <tr>
         <td><%= event.start_location %></td>
         <td><%= event.end_location %></td>
-        <td><%= event.arrival_time %></td>
-        <td><%= event.departure_time %></td>
+        <td><%= event.arrival_time.strftime("%l:%M %p") %></td>
+        <td><%= event.departure_time.strftime("%l:%M %p") %></td>
         <td><%= event.duration %></td>
         <td><%= event.phone_number %></td>
         <td>
