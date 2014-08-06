@@ -1,5 +1,5 @@
 class Event < ActiveRecord::Base
-  validates :start_location, :end_location, :arrival_time, :presence => true
+  validates :start_location, :end_location, :arrival_time, :phone_number, :presence => true
 
   before_save :get_travel_time
 
@@ -24,10 +24,5 @@ class Event < ActiveRecord::Base
   def departure_time
     return self.arrival_time - self.duration
   end
-
-  def phone_number
-
-  end
-
 
 end

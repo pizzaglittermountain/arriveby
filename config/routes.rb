@@ -1,5 +1,6 @@
 Rails.application.routes.draw do
-  # Routes for the Event resource:
+  root("events#new")
+
   # CREATE
   get('/events/new', { :controller => 'events', :action => 'new' })
   get('/create_event', { :controller => 'events', :action => 'create' })

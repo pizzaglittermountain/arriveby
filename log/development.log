@@ -1492,3 +1492,166 @@ Started GET "/" for 127.0.0.1 at 2014-08-05 16:44:49 -0500
 Processing by Rails::WelcomeController#index as HTML
   Rendered /Users/marinagoldshteyn/.rvm/gems/ruby-2.1.2/gems/railties-4.1.4/lib/rails/templates/rails/welcome/index.html.erb (0.1ms)
 Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-05 18:27:07 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (88.0ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (126.7ms)
+Completed 200 OK in 1103ms (Views: 177.3ms | ActiveRecord: 88.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-05 18:27:09 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 32ms (Views: 30.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-05 18:55:16 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (24.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (87.6ms)
+Completed 200 OK in 184ms (Views: 105.3ms | ActiveRecord: 24.8ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 18:55:18 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 18:55:18 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 18:55:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 18:55:19 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 18:55:19 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 18:55:22 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 38ms (Views: 36.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 20:02:19 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (54.8ms)
+Completed 200 OK in 203ms (Views: 83.0ms | ActiveRecord: 27.0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 20:02:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 20:02:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 20:02:22 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 20:02:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 20:02:22 -0500
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-05 20:04:24 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (14.7ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (28.5ms)
+Completed 200 OK in 37ms (Views: 18.8ms | ActiveRecord: 15.4ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-05 20:05:28 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.9ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 15ms (Views: 12.9ms | ActiveRecord: 0.9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 20:05:28 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 20:05:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 20:05:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 20:05:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 20:05:28 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 20:07:03 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 83ms (Views: 81.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-05 20:07:08 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (28.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 56ms (Views: 27.2ms | ActiveRecord: 28.2ms)
+
+
+Started GET "/events/1" for 127.0.0.1 at 2014-08-05 20:07:10 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered events/show.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 59ms (Views: 56.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/1" for 127.0.0.1 at 2014-08-05 20:09:10 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mEvent Load (11.4ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered events/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 29ms (Views: 6.5ms | ActiveRecord: 11.9ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 20:09:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 20:09:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 20:09:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 20:09:10 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 20:09:10 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 20:09:12 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (13.9ms)
+Completed 200 OK in 24ms (Views: 22.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 21:10:12 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 21:10:12 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 21:10:12 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 21:10:12 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 21:10:12 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 21:10:12 -0500
