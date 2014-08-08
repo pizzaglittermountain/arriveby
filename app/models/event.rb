@@ -1,3 +1,5 @@
+require 'open-uri'
+
 class Event < ActiveRecord::Base
   validates :start_location, :end_location, :arrival_time, :phone_number, :presence => true
 

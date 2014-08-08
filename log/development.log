@@ -1655,3 +1655,1114 @@ Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 21:10:12 
 
 
 Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 21:10:12 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 22:59:56 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 173ms (Views: 120.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-05 22:59:59 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (152.5ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (335.6ms)
+Completed 200 OK in 364ms (Views: 209.1ms | ActiveRecord: 152.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 22:59:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 22:59:59 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 22:59:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 22:59:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 22:59:59 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 23:00:03 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-08-05 23:00:05 -0500
+
+ActionController::RoutingError (No route matches [GET] "/users/sign_up"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/marinagoldshteyn/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/marinagoldshteyn/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/marinagoldshteyn/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/marinagoldshteyn/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/marinagoldshteyn/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.8ms)
+  Rendered /Users/marinagoldshteyn/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (4.0ms)
+  Rendered /Users/marinagoldshteyn/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (62.8ms)
+
+
+Started GET "/users/sign_up" for 127.0.0.1 at 2014-08-05 23:00:05 -0500
+
+ActionController::RoutingError (No route matches [GET] "/users/sign_up"):
+  actionpack (4.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.4) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.4) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.4) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.2) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.2) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.4) lib/action_dispatch/middleware/static.rb:64:in `call'
+  rack (1.5.2) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.4) lib/rails/engine.rb:514:in `call'
+  railties (4.1.4) lib/rails/application.rb:144:in `call'
+  rack (1.5.2) lib/rack/lock.rb:17:in `call'
+  rack (1.5.2) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.2) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/marinagoldshteyn/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /Users/marinagoldshteyn/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /Users/marinagoldshteyn/.rvm/rubies/ruby-2.1.2/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/marinagoldshteyn/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Users/marinagoldshteyn/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.4ms)
+  Rendered /Users/marinagoldshteyn/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.9ms)
+  Rendered /Users/marinagoldshteyn/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (27.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-05 23:00:10 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-05 23:00:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-05 23:00:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-05 23:00:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-05 23:00:10 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-05 23:00:10 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-06 14:16:09 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 149ms (Views: 100.2ms | ActiveRecord: 15.8ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 14:16:10 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 14:16:10 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 14:16:10 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 14:16:10 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 14:16:10 -0500
+
+
+Started GET "/create_event?start_location=30+N.Racine+Ave.+Chicago&end_location=225+N.+Michigan+Ave.+Chicago&arrival_time=2%3A15pm&phone_number=6145812654" for 127.0.0.1 at 2014-08-06 14:17:04 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"start_location"=>"30 N.Racine Ave. Chicago", "end_location"=>"225 N. Michigan Ave. Chicago", "arrival_time"=>"2:15pm", "phone_number"=>"6145812654"}
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (26.6ms)[0m  [1mINSERT INTO "events" ("arrival_time", "created_at", "duration", "end_location", "phone_number", "start_location", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["arrival_time", "2014-08-06 14:15:00.000000"], ["created_at", "2014-08-06 19:17:04.624742"], ["duration", 372], ["end_location", "225 N. Michigan Ave. Chicago"], ["phone_number", "6145812654"], ["start_location", "30 N.Racine Ave. Chicago"], ["updated_at", "2014-08-06 19:17:04.624742"]]
+  [1m[35m (16.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/events/3
+Completed 302 Found in 640ms (ActiveRecord: 43.1ms)
+
+
+Started GET "/events/3" for 127.0.0.1 at 2014-08-06 14:17:04 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mEvent Load (0.4ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered events/show.html.erb within layouts/application (26.2ms)
+Completed 200 OK in 54ms (Views: 50.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 14:17:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 14:17:04 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 14:17:04 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 14:17:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 14:17:04 -0500
+
+
+Started GET "/create_event?start_location=30+N.Racine+Ave.+Chicago&end_location=225+N.+Michigan+Ave.+Chicago&arrival_time=2%3A30+PM&phone_number=6145812654" for 127.0.0.1 at 2014-08-06 14:17:27 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"start_location"=>"30 N.Racine Ave. Chicago", "end_location"=>"225 N. Michigan Ave. Chicago", "arrival_time"=>"2:30 PM", "phone_number"=>"6145812654"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "events" ("arrival_time", "created_at", "duration", "end_location", "phone_number", "start_location", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["arrival_time", "2014-08-06 14:30:00.000000"], ["created_at", "2014-08-06 19:17:28.141009"], ["duration", 372], ["end_location", "225 N. Michigan Ave. Chicago"], ["phone_number", "6145812654"], ["start_location", "30 N.Racine Ave. Chicago"], ["updated_at", "2014-08-06 19:17:28.141009"]]
+  [1m[35m (2.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/events/4
+Completed 302 Found in 294ms (ActiveRecord: 2.7ms)
+
+
+Started GET "/events/4" for 127.0.0.1 at 2014-08-06 14:17:28 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered events/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 5.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 14:17:28 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 14:17:28 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 14:17:28 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 14:17:28 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 14:17:28 -0500
+
+
+Started GET "/events/4" for 127.0.0.1 at 2014-08-06 14:18:11 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mEvent Load (0.1ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered events/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 5.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 14:18:11 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 14:18:11 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 14:18:11 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 14:18:11 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 14:18:11 -0500
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 14:23:22 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 48ms (Views: 47.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/3/edit" for 127.0.0.1 at 2014-08-06 14:23:29 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered events/edit.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 35ms (Views: 32.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/update_event/3?start_location=30+N.Racine+Ave.+Chicago&end_location=225+N.+Michigan+Ave.+Chicago&arrival_time=2014-08-06+14%3A30%3A00+UTC&departure_time=2014-08-06+14%3A08%3A48+UTC&duration=372&phone_number=6145812654" for 127.0.0.1 at 2014-08-06 14:24:58 -0500
+Processing by EventsController#update as HTML
+  Parameters: {"start_location"=>"30 N.Racine Ave. Chicago", "end_location"=>"225 N. Michigan Ave. Chicago", "arrival_time"=>"2014-08-06 14:30:00 UTC", "departure_time"=>"2014-08-06 14:08:48 UTC", "duration"=>"372", "phone_number"=>"6145812654", "id"=>"3"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "events" SET "arrival_time" = ?, "updated_at" = ? WHERE "events"."id" = 3[0m  [["arrival_time", "2014-08-06 14:30:00.000000"], ["updated_at", "2014-08-06 19:24:59.236956"]]
+  [1m[35m (2.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/events
+Completed 302 Found in 428ms (ActiveRecord: 3.5ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 14:24:59 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 8ms (Views: 6.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 14:24:59 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 14:24:59 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 14:24:59 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 14:24:59 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 14:24:59 -0500
+
+
+Started GET "/events/3/edit" for 127.0.0.1 at 2014-08-06 14:25:12 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mEvent Load (0.1ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered events/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 62ms (Views: 5.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/update_event/3?start_location=30+N.Racine+Ave.+Chicago&end_location=225+N.+Michigan+Ave.+Chicago&arrival_time=2014-08-06+14%3A45%3A00+UTC&departure_time=2014-08-06+14%3A23%3A48+UTC&duration=372&phone_number=6145812654" for 127.0.0.1 at 2014-08-06 14:25:20 -0500
+Processing by EventsController#update as HTML
+  Parameters: {"start_location"=>"30 N.Racine Ave. Chicago", "end_location"=>"225 N. Michigan Ave. Chicago", "arrival_time"=>"2014-08-06 14:45:00 UTC", "departure_time"=>"2014-08-06 14:23:48 UTC", "duration"=>"372", "phone_number"=>"6145812654", "id"=>"3"}
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "events" SET "arrival_time" = ?, "updated_at" = ? WHERE "events"."id" = 3[0m  [["arrival_time", "2014-08-06 14:45:00.000000"], ["updated_at", "2014-08-06 19:25:20.780211"]]
+  [1m[35m (2.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/events
+Completed 302 Found in 305ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 14:25:20 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 14:25:20 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 14:25:20 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 14:25:20 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 14:25:20 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 14:25:20 -0500
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 14:26:48 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 14:26:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 14:26:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 14:26:48 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 14:26:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 14:26:48 -0500
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 14:27:58 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (6.5ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 62ms (Views: 55.0ms | ActiveRecord: 6.5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 14:27:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 14:27:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 14:27:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 14:27:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 14:27:58 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-06 14:33:24 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 14:50:42 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (3.8ms)
+Completed 200 OK in 12ms (Views: 11.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 14:50:46 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 23ms (Views: 22.5ms | ActiveRecord: 0.2ms)
+  [1m[36mEvent Load (0.5ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."id" ASC LIMIT 1[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-06 15:34:37 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 68ms (Views: 66.7ms | ActiveRecord: 0.0ms)
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."id" ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.5ms)[0m  SELECT  "events".* FROM "events"   ORDER BY "events"."id" ASC LIMIT 1
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."id" ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.4ms)[0m  SELECT  "events".* FROM "events"   ORDER BY "events"."id" ASC LIMIT 1
+  [1m[36m (0.4ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  rollback transaction
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 15:41:11 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.4ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 95ms (Views: 85.6ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/events/1/edit" for 127.0.0.1 at 2014-08-06 15:41:15 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered events/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 34ms (Views: 32.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/4/edit" for 127.0.0.1 at 2014-08-06 15:41:28 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mEvent Load (0.3ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered events/edit.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 39ms (Views: 32.2ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/update_event/4?start_location=30+N.Racine+Ave.+Chicago&end_location=225+N.+Michigan+Ave.+Chicago&arrival_time=2014-08-06+15%3A45%3A00+UTC&departure_time=2014-08-06+14%3A23%3A48+UTC&duration=372&phone_number=6145812654" for 127.0.0.1 at 2014-08-06 15:41:44 -0500
+Processing by EventsController#update as HTML
+  Parameters: {"start_location"=>"30 N.Racine Ave. Chicago", "end_location"=>"225 N. Michigan Ave. Chicago", "arrival_time"=>"2014-08-06 15:45:00 UTC", "departure_time"=>"2014-08-06 14:23:48 UTC", "duration"=>"372", "phone_number"=>"6145812654", "id"=>"4"}
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mUPDATE "events" SET "arrival_time" = ?, "updated_at" = ? WHERE "events"."id" = 4[0m  [["arrival_time", "2014-08-06 15:45:00.000000"], ["updated_at", "2014-08-06 20:41:44.567256"]]
+  [1m[35m (2.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/events
+Completed 302 Found in 321ms (ActiveRecord: 3.1ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 15:41:44 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 8ms (Views: 6.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 15:41:44 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 15:41:44 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 15:41:44 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 15:41:44 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 15:41:44 -0500
+
+
+Started GET "/events/3/edit" for 127.0.0.1 at 2014-08-06 15:41:47 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mEvent Load (0.1ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered events/edit.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 6ms (Views: 5.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/update_event/3?start_location=30+N.Racine+Ave.+Chicago&end_location=225+N.+Michigan+Ave.+Chicago&arrival_time=2014-08-06+14%3A45%3A00+CDT&departure_time=2014-08-06+14%3A38%3A48+UTC&duration=372&phone_number=6145812654" for 127.0.0.1 at 2014-08-06 15:41:51 -0500
+Processing by EventsController#update as HTML
+  Parameters: {"start_location"=>"30 N.Racine Ave. Chicago", "end_location"=>"225 N. Michigan Ave. Chicago", "arrival_time"=>"2014-08-06 14:45:00 CDT", "departure_time"=>"2014-08-06 14:38:48 UTC", "duration"=>"372", "phone_number"=>"6145812654", "id"=>"3"}
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "events" SET "arrival_time" = ?, "updated_at" = ? WHERE "events"."id" = 3[0m  [["arrival_time", "2014-08-06 19:45:00.000000"], ["updated_at", "2014-08-06 20:41:52.177799"]]
+  [1m[35m (3.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/events
+Completed 302 Found in 314ms (ActiveRecord: 3.8ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 15:41:52 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 7ms (Views: 6.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 15:41:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 15:41:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 15:41:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 15:41:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 15:41:52 -0500
+
+
+Started GET "/events/4/edit" for 127.0.0.1 at 2014-08-06 15:42:19 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered events/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/update_event/4?start_location=30+N.Racine+Ave.+Chicago&end_location=225+N.+Michigan+Ave.+Chicago&arrival_time=2014-08-06+15%3A45%3A00+CDT&departure_time=2014-08-06+15%3A38%3A48+UTC&duration=372&phone_number=6145812654" for 127.0.0.1 at 2014-08-06 15:42:30 -0500
+Processing by EventsController#update as HTML
+  Parameters: {"start_location"=>"30 N.Racine Ave. Chicago", "end_location"=>"225 N. Michigan Ave. Chicago", "arrival_time"=>"2014-08-06 15:45:00 CDT", "departure_time"=>"2014-08-06 15:38:48 UTC", "duration"=>"372", "phone_number"=>"6145812654", "id"=>"4"}
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mUPDATE "events" SET "arrival_time" = ?, "updated_at" = ? WHERE "events"."id" = 4[0m  [["arrival_time", "2014-08-06 20:45:00.000000"], ["updated_at", "2014-08-06 20:42:30.814843"]]
+  [1m[35m (1.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/events
+Completed 302 Found in 255ms (ActiveRecord: 2.1ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 15:42:30 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 15:42:30 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 15:42:30 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 15:42:30 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 15:42:30 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 15:42:30 -0500
+
+
+Started GET "/events/4/edit" for 127.0.0.1 at 2014-08-06 15:43:05 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered events/edit.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15ms (Views: 13.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/update_event/4?start_location=30+N.Racine+Ave.+Chicago&end_location=225+N.+Michigan+Ave.+Chicago&arrival_time=2014-08-06+15%3A50+CDT&departure_time=2014-08-06+20%3A38%3A48+UTC&duration=372&phone_number=6145812654" for 127.0.0.1 at 2014-08-06 15:43:21 -0500
+Processing by EventsController#update as HTML
+  Parameters: {"start_location"=>"30 N.Racine Ave. Chicago", "end_location"=>"225 N. Michigan Ave. Chicago", "arrival_time"=>"2014-08-06 15:50 CDT", "departure_time"=>"2014-08-06 20:38:48 UTC", "duration"=>"372", "phone_number"=>"6145812654", "id"=>"4"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "events" SET "arrival_time" = ?, "updated_at" = ? WHERE "events"."id" = 4[0m  [["arrival_time", "2014-08-06 20:50:00.000000"], ["updated_at", "2014-08-06 20:43:22.421742"]]
+  [1m[35m (2.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/events
+Completed 302 Found in 694ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 15:43:22 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 15:43:22 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 15:43:22 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 15:43:22 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 15:43:22 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 15:43:22 -0500
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."id" ASC LIMIT 1[0m
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."id" ASC LIMIT 1[0m
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."id" DESC LIMIT 1[0m
+
+
+Started GET "/events/4/edit" for 127.0.0.1 at 2014-08-06 15:45:43 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 4]]
+  Rendered events/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 11ms (Views: 6.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/update_event/4?start_location=30+N.Racine+Ave.+Chicago&end_location=225+N.+Michigan+Ave.+Chicago&arrival_time=2014-08-06+15%3A52%3A00+UTC&departure_time=2014-08-06+20%3A43%3A48+UTC&duration=372&phone_number=6145812654" for 127.0.0.1 at 2014-08-06 15:45:51 -0500
+Processing by EventsController#update as HTML
+  Parameters: {"start_location"=>"30 N.Racine Ave. Chicago", "end_location"=>"225 N. Michigan Ave. Chicago", "arrival_time"=>"2014-08-06 15:52:00 UTC", "departure_time"=>"2014-08-06 20:43:48 UTC", "duration"=>"372", "phone_number"=>"6145812654", "id"=>"4"}
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 4]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mUPDATE "events" SET "arrival_time" = ?, "updated_at" = ? WHERE "events"."id" = 4[0m  [["arrival_time", "2014-08-06 15:52:00.000000"], ["updated_at", "2014-08-06 20:45:52.168078"]]
+  [1m[35m (2.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/events
+Completed 302 Found in 719ms (ActiveRecord: 3.4ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 15:45:52 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 7ms (Views: 6.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 15:45:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 15:45:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 15:45:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 15:45:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 15:45:52 -0500
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."id" DESC LIMIT 1[0m
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."id" DESC LIMIT 1[0m
+  [1m[36mEvent Load (0.6ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."id" ASC LIMIT 1[0m
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 15:59:04 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 49ms (Views: 47.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 15:59:05 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 15:59:05 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 15:59:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 15:59:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 15:59:05 -0500
+
+
+Started GET "/events/4/edit" for 127.0.0.1 at 2014-08-06 15:59:08 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mEvent Load (0.6ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered events/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 40ms (Views: 34.5ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/update_event/4?start_location=30+N.Racine+Ave.+Chicago&end_location=225+N.+Michigan+Ave.+Chicago&arrival_time=2014-08-06+16%3A10%3A00+UTC&departure_time=2014-08-06+15%3A45%3A48+UTC&duration=372&phone_number=6145812654" for 127.0.0.1 at 2014-08-06 15:59:34 -0500
+Processing by EventsController#update as HTML
+  Parameters: {"start_location"=>"30 N.Racine Ave. Chicago", "end_location"=>"225 N. Michigan Ave. Chicago", "arrival_time"=>"2014-08-06 16:10:00 UTC", "departure_time"=>"2014-08-06 15:45:48 UTC", "duration"=>"372", "phone_number"=>"6145812654", "id"=>"4"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 4]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  UPDATE "events" SET "arrival_time" = ?, "updated_at" = ? WHERE "events"."id" = 4  [["arrival_time", "2014-08-06 16:10:00.000000"], ["updated_at", "2014-08-06 20:59:34.468118"]]
+  [1m[36m (2.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/events
+Completed 302 Found in 321ms (ActiveRecord: 3.6ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 15:59:34 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 15:59:34 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 15:59:34 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 15:59:34 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 15:59:34 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 15:59:34 -0500
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."id" ASC LIMIT 1[0m
+
+
+Started GET "/events/4/edit" for 127.0.0.1 at 2014-08-06 16:00:14 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 4]]
+  Rendered events/edit.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 8ms (Views: 6.3ms | ActiveRecord: 0.2ms)
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."id" ASC LIMIT 1[0m
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."id" ASC LIMIT 1[0m
+  [1m[36mEvent Load (15.6ms)[0m  [1mSELECT "events".* FROM "events"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-06 16:18:41 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 74ms (Views: 72.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/create_event?start_location=30+N+Racine+Ave.+Chicago&end_location=2457+W.+Logan+Blvd.+Chiago&arrival_time=4%3A30pm&phone_number=6145813654" for 127.0.0.1 at 2014-08-06 16:19:41 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"start_location"=>"30 N Racine Ave. Chicago", "end_location"=>"2457 W. Logan Blvd. Chiago", "arrival_time"=>"4:30pm", "phone_number"=>"6145813654"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (21.2ms)[0m  [1mINSERT INTO "events" ("arrival_time", "created_at", "duration", "end_location", "phone_number", "start_location", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["arrival_time", "2014-08-06 16:30:00.000000"], ["created_at", "2014-08-06 21:19:42.278288"], ["duration", 606], ["end_location", "2457 W. Logan Blvd. Chiago"], ["phone_number", "6145813654"], ["start_location", "30 N Racine Ave. Chicago"], ["updated_at", "2014-08-06 21:19:42.278288"]]
+  [1m[35m (16.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/events/5
+Completed 302 Found in 398ms (ActiveRecord: 38.1ms)
+
+
+Started GET "/events/5" for 127.0.0.1 at 2014-08-06 16:19:42 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"5"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 5]]
+  Rendered events/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 21ms (Views: 19.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 16:19:42 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 16:19:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 16:19:42 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 16:19:42 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 16:19:42 -0500
+  [1m[36mEvent Load (1.5ms)[0m  [1mSELECT "events".* FROM "events"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-06 16:20:38 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 24ms (Views: 23.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-06 16:24:29 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 86ms (Views: 85.5ms | ActiveRecord: 0.0ms)
+  [1m[36mEvent Load (24.5ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  [1m[35mEvent Load (0.4ms)[0m  SELECT  "events".* FROM "events"   ORDER BY "events"."id" ASC LIMIT 1
+  [1m[36mEvent Load (0.3ms)[0m  [1mSELECT  "events".* FROM "events"   ORDER BY "events"."id" ASC LIMIT 1[0m
+  [1m[35mEvent Load (0.3ms)[0m  SELECT  "events".* FROM "events"   ORDER BY "events"."id" ASC LIMIT 1
+
+
+Started GET "/create_event?start_location=30+N.+Racine+Chicago&end_location=2457+W.+Logan+Blvd+Chicago&arrival_time=6%3A50+PM&phone_number=6145813654" for 127.0.0.1 at 2014-08-06 18:23:07 -0500
+Processing by EventsController#create as HTML
+  Parameters: {"start_location"=>"30 N. Racine Chicago", "end_location"=>"2457 W. Logan Blvd Chicago", "arrival_time"=>"6:50 PM", "phone_number"=>"6145813654"}
+  [1m[35m (0.6ms)[0m  begin transaction
+  [1m[36mSQL (23.2ms)[0m  [1mINSERT INTO "events" ("arrival_time", "created_at", "duration", "end_location", "phone_number", "start_location", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["arrival_time", "2014-08-06 18:50:00.000000"], ["created_at", "2014-08-06 23:23:08.054402"], ["duration", 606], ["end_location", "2457 W. Logan Blvd Chicago"], ["phone_number", "6145813654"], ["start_location", "30 N. Racine Chicago"], ["updated_at", "2014-08-06 23:23:08.054402"]]
+  [1m[35m (15.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/events/6
+Completed 302 Found in 862ms (ActiveRecord: 39.5ms)
+
+
+Started GET "/events/6" for 127.0.0.1 at 2014-08-06 18:23:08 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered events/show.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 73ms (Views: 70.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 18:23:08 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 18:23:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 18:23:08 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 18:23:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 18:23:08 -0500
+
+
+Started GET "/events/6" for 127.0.0.1 at 2014-08-06 18:31:49 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mEvent Load (0.2ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered events/show.html.erb within layouts/application (4.4ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `strftime' for 606:Fixnum):
+    16:   <dd><%= @event.departure_time.strftime("%l:%M %p") %></dd>
+    17: 
+    18:   <dt>Duration</dt>
+    19:   <dd><%= @event.duration.strftime("%l:%M %p") %></dd>
+    20: 
+    21:   <dt>Phone number</dt>
+    22:   <dd><%= @event.phone_number %></dd>
+  app/views/events/show.html.erb:19:in `_app_views_events_show_html_erb__4150070516037684251_70356760036840'
+
+
+  Rendered /Users/marinagoldshteyn/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Users/marinagoldshteyn/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.2ms)
+  Rendered /Users/marinagoldshteyn/.rvm/gems/ruby-2.1.2/gems/actionpack-4.1.4/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (41.7ms)
+
+
+Started GET "/events/6" for 127.0.0.1 at 2014-08-06 18:31:55 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered events/show.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 19ms (Views: 17.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 18:31:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 18:31:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 18:31:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 18:31:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 18:31:56 -0500
+
+
+Started GET "/events/6" for 127.0.0.1 at 2014-08-06 18:32:19 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mEvent Load (0.1ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered events/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 7ms (Views: 5.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:19 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:19 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 18:32:19 -0500
+
+
+Started GET "/events/6" for 127.0.0.1 at 2014-08-06 18:32:35 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered events/show.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 9ms (Views: 6.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 18:32:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:35 -0500
+
+
+Started GET "/events/6" for 127.0.0.1 at 2014-08-06 18:32:42 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[35mEvent Load (0.1ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 6]]
+  Rendered events/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 9ms (Views: 7.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:42 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:42 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:42 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 18:32:42 -0500
+
+
+Started GET "/events/6" for 127.0.0.1 at 2014-08-06 18:32:48 -0500
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered events/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 9ms (Views: 6.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:48 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:48 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:48 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 18:32:48 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 18:32:48 -0500
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 18:33:31 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.4ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 35ms (Views: 34.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-06 18:33:34 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 35.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 18:38:11 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 10ms (Views: 9.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 18:38:43 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 10ms (Views: 9.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 18:38:43 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 18:38:43 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 18:38:43 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 18:38:43 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 18:38:43 -0500
+
+
+Started GET "/events/6/edit" for 127.0.0.1 at 2014-08-06 18:41:18 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mEvent Load (0.1ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered events/edit.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 37ms (Views: 35.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/update_event/6?start_location=30+N.+Racine+Chicago&end_location=2457+W.+Logan+Blvd+Chicago&arrival_time=2014-08-06+18%3A55%3A00+UTC&departure_time=2014-08-06+18%3A39%3A54+UTC&duration=606&phone_number=6145813654" for 127.0.0.1 at 2014-08-06 18:41:28 -0500
+Processing by EventsController#update as HTML
+  Parameters: {"start_location"=>"30 N. Racine Chicago", "end_location"=>"2457 W. Logan Blvd Chicago", "arrival_time"=>"2014-08-06 18:55:00 UTC", "departure_time"=>"2014-08-06 18:39:54 UTC", "duration"=>"606", "phone_number"=>"6145813654", "id"=>"6"}
+  [1m[35mEvent Load (0.1ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (23.1ms)[0m  UPDATE "events" SET "arrival_time" = ?, "updated_at" = ? WHERE "events"."id" = 6  [["arrival_time", "2014-08-06 18:55:00.000000"], ["updated_at", "2014-08-06 23:41:29.469586"]]
+  [1m[36m (1.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/events
+Completed 302 Found in 734ms (ActiveRecord: 24.8ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 18:41:29 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.3ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 18:41:29 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 18:41:29 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 18:41:29 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 18:41:29 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 18:41:29 -0500
+  [1m[36mEvent Load (14.8ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  [1m[36mEvent Load (1.5ms)[0m  [1mSELECT "events".* FROM "events"[0m
+
+
+Started GET "/events/6/edit" for 127.0.0.1 at 2014-08-06 18:46:00 -0500
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"6"}
+  [1m[36mEvent Load (3.5ms)[0m  [1mSELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1[0m  [["id", 6]]
+  Rendered events/edit.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 20ms (Views: 13.2ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/update_event/6?start_location=30+N.+Racine+Chicago&end_location=2457+W.+Logan+Blvd+Chicago&arrival_time=2014-08-06+18%3A58%3A00+UTC&departure_time=2014-08-06+18%3A44%3A54+UTC&duration=606&phone_number=6145813654" for 127.0.0.1 at 2014-08-06 18:46:07 -0500
+Processing by EventsController#update as HTML
+  Parameters: {"start_location"=>"30 N. Racine Chicago", "end_location"=>"2457 W. Logan Blvd Chicago", "arrival_time"=>"2014-08-06 18:58:00 UTC", "departure_time"=>"2014-08-06 18:44:54 UTC", "duration"=>"606", "phone_number"=>"6145813654", "id"=>"6"}
+  [1m[35mEvent Load (0.1ms)[0m  SELECT  "events".* FROM "events"  WHERE "events"."id" = ? LIMIT 1  [["id", 6]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  UPDATE "events" SET "arrival_time" = ?, "updated_at" = ? WHERE "events"."id" = 6  [["arrival_time", "2014-08-06 18:58:00.000000"], ["updated_at", "2014-08-06 23:46:07.574636"]]
+  [1m[36m (2.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/events
+Completed 302 Found in 333ms (ActiveRecord: 3.3ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 18:46:07 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (0.2ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 8ms (Views: 6.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 18:46:07 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 18:46:07 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 18:46:07 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 18:46:07 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 18:46:07 -0500
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-06 18:46:13 -0500
+Processing by EventsController#index as HTML
+  [1m[36mEvent Load (0.2ms)[0m  [1mSELECT "events".* FROM "events"[0m
+  Rendered events/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2014-08-06 18:46:13 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2014-08-06 18:46:13 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2014-08-06 18:46:13 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2014-08-06 18:46:13 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2014-08-06 18:46:13 -0500
+  [1m[36mEvent Load (2.0ms)[0m  [1mSELECT "events".* FROM "events"[0m
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-06 18:56:33 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 102ms (Views: 101.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-06 18:57:31 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 65ms (Views: 63.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2014-08-07 13:13:19 -0500
+Processing by EventsController#index as HTML
+  [1m[35mEvent Load (77.1ms)[0m  SELECT "events".* FROM "events"
+  Rendered events/index.html.erb within layouts/application (148.7ms)
+Completed 200 OK in 300ms (Views: 174.6ms | ActiveRecord: 77.6ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-08 13:29:43 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 265ms (Views: 226.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2014-08-08 13:33:23 -0500
+Processing by EventsController#new as HTML
+  Rendered events/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 94ms (Views: 92.7ms | ActiveRecord: 0.0ms)

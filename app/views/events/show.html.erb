@@ -16,7 +16,7 @@
   <dd><%= @event.departure_time.strftime("%l:%M %p") %></dd>
 
   <dt>Duration</dt>
-  <dd><%= @event.duration %></dd>
+  <dd><%= @event.duration/60 %> minutes</dd>
 
   <dt>Phone number</dt>
   <dd><%= @event.phone_number %></dd>

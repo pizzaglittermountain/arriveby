@@ -26,7 +26,7 @@
         <td><%= event.end_location %></td>
         <td><%= event.arrival_time.strftime("%l:%M %p") %></td>
         <td><%= event.departure_time.strftime("%l:%M %p") %></td>
-        <td><%= event.duration %></td>
+        <td><%= event.duration/60 %> minutes</td>
         <td><%= event.phone_number %></td>
         <td>
           <a href="/events/<%= event.id %>" class="btn btn-primary">

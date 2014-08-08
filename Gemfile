@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'whenever', :require => false
+
 gem 'twilio-ruby', '~> 3.11'
 
 gem 'starter_generators', :git => "git://github.com/rbetina/starter_generators.git", :branch => "kiei925"

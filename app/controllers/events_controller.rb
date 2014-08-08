@@ -24,9 +24,6 @@ class EventsController < ApplicationController
     # @event.departure_time = @event.arrival_time - @event.get_travel_time
     @event.phone_number = params[:phone_number]
 
-    #Need to change redirect
-
-
     if @event.save
       redirect_to "/events/#{@event.id}", :notice => "Event created successfully."
     else
