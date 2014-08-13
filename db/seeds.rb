@@ -6,3 +6,8 @@
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
 
+e = Event.new
+e.start_location = "225 N. Michigan Ave, Chicago"
+e.end_location = "30 North Racine Ave, Chicago"
+e.arrival_time = Time.now + 8.minutes
+e.phone_number = "6145813654"
