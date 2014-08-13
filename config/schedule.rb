@@ -19,8 +19,7 @@
 
 # Learn more: http://github.com/javan/whenever
 
-every :min do
-  runner "Event.departure_time"
-  rake "rake:reminders:text"
+every 1.minute do
+  rake "reminders:text"
 end
 

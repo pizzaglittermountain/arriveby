@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem "figaro"
+
 gem 'whenever', :require => false
 
 gem 'twilio-ruby', '~> 3.11'

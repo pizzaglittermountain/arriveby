@@ -18,9 +18,9 @@ class Event < ActiveRecord::Base
 
     routes = parsed_data["routes"]
 
-    # routes.each do |route|
+    routes.each do |route|
     self.duration = routes.first["legs"][0]["duration"]["value"]
-    # end
+    end
   end
 
   def departure_time
